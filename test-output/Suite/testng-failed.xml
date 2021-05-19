@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="AllClassesTestNG(failed)">
+    <classes>
+      <class name="Testcases.LoginTest">
+        <methods>
+          <include name="FailureTest11"/>
+          <include name="FailureTest22"/>
+          <include name="LoginWithDataProviderManualTest" invocation-numbers="0 1"/>
+          <include name="TearDown"/>
+          <include name="RegisterNewMemberWithDataProviderManualTest" invocation-numbers="0"/>
+          <include name="closeReport"/>
+          <include name="name"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- Testcases.LoginTest -->
+      <class name="Testcases.UsersTest">
+        <methods>
+          <include name="AddUserAlertMessageTest"/>
+          <include name="TearDown"/>
+          <include name="SetUp"/>
+          <include name="AddUserWithDataProviderManualTest" invocation-numbers="0"/>
+          <include name="closeReport"/>
+          <include name="name"/>
+        </methods>
+      </class> <!-- Testcases.UsersTest -->
+      <class name="Testcases.OperatorTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="Setup"/>
+          <include name="name"/>
+          <include name="closeReport"/>
+        </methods>
+      </class> <!-- Testcases.OperatorTest -->
+      <class name="Testcases.DashboardTest">
+        <methods>
+          <include name="SetUp"/>
+          <include name="ReadDashboardDataTest"/>
+          <include name="name"/>
+          <include name="closeReport"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- Testcases.DashboardTest -->
+      <class name="Testcases.LogoutTest">
+        <methods>
+          <include name="closeReport"/>
+          <include name="setup"/>
+          <include name="name"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- Testcases.LogoutTest -->
+    </classes>
+  </test> <!-- AllClassesTestNG(failed) -->
+</suite> <!-- Failed suite [Suite] -->
